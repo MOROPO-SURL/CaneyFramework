@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:fwkcaneypresentation_views="clr-namespace:MOROPO.Framework.Caney.Presentation.UI.Views;assembly=MOROPO.Framework.Caney.Presentation"
+    x:Class="CaseTestingApp.Pages.ViewsPage"
+    Title="ViewsPage">
+    <Grid>
+        <fwkcaneypresentation_views:BusyView />
+    </Grid>
+</ContentPage>
